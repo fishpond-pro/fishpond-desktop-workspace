@@ -1,3 +1,4 @@
 packages:
  - packages/*
+ - packages/fishpond-components/packages/*
  - packages/polymita-runtime/packages/*
