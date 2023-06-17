@@ -1,0 +1,12 @@
+[submodule "packages/fishpond-desktop"]
+	path = packages/fishpond-desktop
+	url = git@github.com:fishpond-pro/fishpond-desktop.git
+[submodule "packages/polymita-runtime"]
+	path = packages/polymita-runtime
+	url = git@github.com:zhou-yg/polymita-runtime.git
+[submodule "packages/polymita"]
+	path = packages/polymita
+	url = git@github.com:zhou-yg/polymita.git
+[submodule "packages/fishpond-components"]
+	path = packages/fishpond-components
+	url = git@github.com:fishpond-pro/fishpond-components.git
