@@ -125,6 +125,7 @@ importers:
 
   packages/fishpond-desktop:
     specifiers:
+      '@koa/cors': ^3.3.0
       '@koa/router': 12.0.0
       '@polymita/connect': workspace:*
       '@polymita/message-timeline': workspace:*
@@ -172,8 +173,15 @@ importers:
       json5: 2.2.3
       koa: 2.14.2
       koa-basic-auth: 4.0.0
+      koa-bodyparser: ^4.4.1
+      koa-compress: ^5.1.1
+      koa-cookie: ^1.0.0
       koa-favicon: 2.1.0
+      koa-json: ^2.0.2
+      koa-logger: ^3.2.1
       koa-mount: 4.0.0
+      koa-onerror: ^4.2.0
+      koa-router: ^12.0.0
       less: ^4.1.3
       lru-cache: 9.1.1
       lz-string: 1.5.0
@@ -212,6 +220,7 @@ importers:
       winston: 3.8.2
       xml2js: 0.5.0
     dependencies:
+      '@koa/cors': 3.4.3
       '@koa/router': 12.0.0
       '@polymita/connect': link:../polymita-runtime/packages/connect
       '@polymita/message-timeline': link:../fishpond-components/packages/message-timeline2
@@ -255,8 +264,15 @@ importers:
       json5: 2.2.3
       koa: 2.14.2
       koa-basic-auth: 4.0.0
+      koa-bodyparser: 4.4.1
+      koa-compress: 5.1.1
+      koa-cookie: 1.0.0
       koa-favicon: 2.1.0
+      koa-json: 2.0.2
+      koa-logger: 3.2.1
       koa-mount: 4.0.0
+      koa-onerror: 4.2.0
+      koa-router: 12.0.0
       lru-cache: 9.1.1
       lz-string: 1.5.0
       mailparser: 3.6.4
@@ -4419,6 +4435,15 @@ packages:
       type-is: 1.6.18
     dev: false
 
+  /co-body/6.1.0:
+    resolution: {integrity: sha512-m7pOT6CdLN7FuXUcpuz/8lfQ/L77x8SchHCF4G0RBTJO20Wzmhn5Sp4/5WsKy8OSpifBSUrmg83qEqaDHdyFuQ==}
+    dependencies:
+      inflation: 2.0.0
+      qs: 6.11.2
+      raw-body: 2.5.2
+      type-is: 1.6.18
+    dev: false
+
   /co/4.6.0:
     resolution: {integrity: sha512-QVb0dM5HvG+uaxitm8wONl7jltx8dqhfU33DcqtOZcLSVIKSDDLDi7+0LbAKiyI8hD9u42m2YxXSkMGWThaecQ==}
     engines: {iojs: '>= 1.0.0', node: '>= 0.12.0'}
@@ -4549,6 +4574,13 @@ packages:
       readable-stream: 3.6.2
     dev: false
 
+  /compressible/2.0.18:
+    resolution: {integrity: sha512-AF3r7P5dWxL8MxyITRMlORQNaOA2IkAFaTr4k7BUumjPtRpGDTZpl0Pb1XCO6JeDCBdp126Cgs9sMxqSjgYyRg==}
+    engines: {node: '>= 0.6'}
+    dependencies:
+      mime-db: 1.52.0
+    dev: false
+
   /compressing/1.9.0:
     resolution: {integrity: sha512-WBNRH/mIV7aEFuYQFk4zCQZPEXDtyuCCeIcq5wYbmk5VewmUWV1YXAGyG6+hwrRGfG3HTy3c4BV79yfgloPJWQ==}
     engines: {node: '>= 4.0.0'}
@@ -4613,6 +4645,10 @@ packages:
     resolution: {integrity: sha512-1j20GZTsvKNkc4BY3NpMOM8tt///wY3FpIzozTOFO2ffuZcV61nojHXVKIy3WM+7ADCy5FVhdZYHYDdgTU0yJw==}
     dependencies:
       is-what: 3.14.1
+
+  /copy-to/2.0.1:
+    resolution: {integrity: sha512-3DdaFaU/Zf1AnpLiFDeNCD4TOWe3Zl2RZaTzUvWiIk5ERzcCodOE20Vqq4fzCbNoHURFHT4/us/Lfq+S2zyY4w==}
+    dev: false
 
   /core-js/2.6.12:
     resolution: {integrity: sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==}
@@ -7167,6 +7203,10 @@ packages:
       ms: 2.1.3
     dev: false
 
+  /humanize-number/0.0.2:
+    resolution: {integrity: sha512-un3ZAcNQGI7RzaWGZzQDH47HETM4Wrj6z6E4TId8Yeq9w5ZKUVB1nrT2jwFheTUjEmqcgTjXDc959jum+ai1kQ==}
+    dev: false
+
   /iconv-lite/0.4.24:
     resolution: {integrity: sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==}
     engines: {node: '>=0.10.0'}
@@ -8850,8 +8890,27 @@ packages:
       formidable: 2.1.2
     dev: false
 
+  /koa-bodyparser/4.4.1:
+    resolution: {integrity: sha512-kBH3IYPMb+iAXnrxIhXnW+gXV8OTzCu8VPDqvcDHW9SQrbkHmqPQtiZwrltNmSq6/lpipHnT7k7PsjlVD7kK0w==}
+    engines: {node: '>=8.0.0'}
+    dependencies:
+      co-body: 6.1.0
+      copy-to: 2.0.1
+      type-is: 1.6.18
+    dev: false
+
   /koa-compose/4.1.0:
     resolution: {integrity: sha512-8ODW8TrDuMYvXRwra/Kh7/rJo9BtOfPc6qO8eAfC80CnCvSjSl0bkRM24X6/XBBEyj0v1nRUQ1LyOy3dbqOWXw==}
+    dev: false
+
+  /koa-compress/5.1.1:
+    resolution: {integrity: sha512-UgMIN7ZoEP2DuoSQmD6CYvFSLt0NReGlc2qSY4bO4Oq0L56OiD9pDG41Kj/zFmVY/A3Wvmn4BqKcfq5H30LGIg==}
+    engines: {node: '>= 12'}
+    dependencies:
+      bytes: 3.1.2
+      compressible: 2.0.18
+      http-errors: 1.8.1
+      koa-is-json: 1.0.0
     dev: false
 
   /koa-convert/2.0.0:
@@ -8862,10 +8921,35 @@ packages:
       koa-compose: 4.1.0
     dev: false
 
+  /koa-cookie/1.0.0:
+    resolution: {integrity: sha512-MCAek9ttjFFUHx1oUDxPdzTgfllOR1o/7S1OEHdmyBoZ6Kt8V1+J4JWq0RCjxD2JDhKHWZGdoLqBTRWaYOoF6Q==}
+    dev: false
+
   /koa-favicon/2.1.0:
     resolution: {integrity: sha512-LvukcooYjxKtnZq0RXdBup+JDhaHwLgnLlDHB/xvjwQEjbc4rbp/0WkmOzpOvaHujc+fIwPear0dpKX1V+dHVg==}
     dependencies:
       mz: 2.7.0
+    dev: false
+
+  /koa-is-json/1.0.0:
+    resolution: {integrity: sha512-+97CtHAlWDx0ndt0J8y3P12EWLwTLMXIfMnYDev3wOTwH/RpBGMlfn4bDXlMEg1u73K6XRE9BbUp+5ZAYoRYWw==}
+    dev: false
+
+  /koa-json/2.0.2:
+    resolution: {integrity: sha512-8+dz0T2ekDuNN1svYoKPCV2txotQ3Ufg8Fn5bft1T48MPJWiC/HKmkk+3xj9EC/iNZuFYeLRazN2h2o3RSUXuQ==}
+    dependencies:
+      koa-is-json: 1.0.0
+      streaming-json-stringify: 3.1.0
+    dev: false
+
+  /koa-logger/3.2.1:
+    resolution: {integrity: sha512-MjlznhLLKy9+kG8nAXKJLM0/ClsQp/Or2vI3a5rbSQmgl8IJBQO0KI5FA70BvW+hqjtxjp49SpH2E7okS6NmHg==}
+    engines: {node: '>= 7.6.0'}
+    dependencies:
+      bytes: 3.1.2
+      chalk: 2.4.2
+      humanize-number: 0.0.2
+      passthrough-counter: 1.0.0
     dev: false
 
   /koa-mount/4.0.0:
@@ -8876,6 +8960,24 @@ packages:
       koa-compose: 4.1.0
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /koa-onerror/4.2.0:
+    resolution: {integrity: sha512-D15tp5rxevHqqcvOiEDbtQolG6z3NpBNupz3EUZz43pjYv5SGMom2Xz1FKM8oTya56+aq+hejPW/iBrNnC/UGQ==}
+    engines: {node: '>= 8.0.0'}
+    dependencies:
+      escape-html: 1.0.3
+      stream-wormhole: 1.1.0
+    dev: false
+
+  /koa-router/12.0.0:
+    resolution: {integrity: sha512-zGrdiXygGYW8WvrzeGsHZvKnHs4DzyGoqJ9a8iHlRkiwuEAOAPyI27//OlhoWdgFAEIM3qbUgr0KCuRaP/TCag==}
+    engines: {node: '>= 12'}
+    dependencies:
+      http-errors: 2.0.0
+      koa-compose: 4.1.0
+      methods: 1.1.2
+      path-to-regexp: 6.2.1
     dev: false
 
   /koa-send/5.0.1:
@@ -10524,6 +10626,10 @@ packages:
     dependencies:
       no-case: 3.0.4
       tslib: 2.5.3
+    dev: false
+
+  /passthrough-counter/1.0.0:
+    resolution: {integrity: sha512-Wy8PXTLqPAN0oEgBrlnsXPMww3SYJ44tQ8aVrGAI4h4JZYCS0oYqsPqtPR8OhJpv6qFbpbB7XAn0liKV7EXubA==}
     dev: false
 
   /path-exists/4.0.0:
@@ -12500,9 +12606,21 @@ packages:
       bluebird: 2.11.0
     dev: false
 
+  /stream-wormhole/1.1.0:
+    resolution: {integrity: sha512-gHFfL3px0Kctd6Po0M8TzEvt3De/xu6cnRrjlfYNhwbhLPLwigI2t1nc6jrzNuaYg5C4YF78PPFuQPzRiqn9ew==}
+    engines: {node: '>=4.0.0'}
+    dev: false
+
   /streamifier/0.1.1:
     resolution: {integrity: sha512-zDgl+muIlWzXNsXeyUfOk9dChMjlpkq0DRsxujtYPgyJ676yQ8jEm6zzaaWHFDg5BNcLuif0eD2MTyJdZqXpdg==}
     engines: {node: '>=0.10'}
+    dev: false
+
+  /streaming-json-stringify/3.1.0:
+    resolution: {integrity: sha512-axtfs3BDxAsrZ9swD163FBrXZ8dhJJp6kUI6C97TvUZG9RHKfbg9nFbXqEheFNOb3IYMEt2ag9F62sWLFUZ4ug==}
+    dependencies:
+      json-stringify-safe: 5.0.1
+      readable-stream: 2.3.8
     dev: false
 
   /strict-uri-encode/2.0.0:
