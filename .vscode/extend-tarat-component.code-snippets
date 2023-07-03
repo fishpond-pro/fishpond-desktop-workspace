@@ -1,0 +1,39 @@
+{
+  "tarat component": {
+    "prefix": "ext-cpt",
+    "body": [
+      "import { h, SignalProps, useLogic, ConvertToLayoutTreeDraft, CommandOP, overrideModule } from '@polymita/renderer';",
+      "import { after, signal } from '@polymita/signal'",
+      "import * as BaseModule from '/** base module referrence */'",
+      "export interface ${2:${TM_DIRECTORY/^.+[\\/\\\\]+(.)(.*)$/${1:/upcase}$2/}}Props {",
+      "  ",
+      "}",
+      "const NewModule = overrideModule(BaseModule, {",
+      "  layout (props: BaseModule.meta.props & ${2:${TM_DIRECTORY/^.+[\\/\\\\]+(.)(.*)$/${1:/upcase}${2}/}}Props, root) {",
+      "  },",
+      "  patchRules (props: BaseModule.meta.props & ${2:${TM_DIRECTORY/^.+[\\/\\\\]+(.)(.*)$/${1:/upcase}${2}/}}Props, root) {",
+      "  },",
+      "  patchLayout(props: BaseModule.meta.props & ${2:${TM_DIRECTORY/^.+[\\/\\\\]+(.)(.*)$/${1:/upcase}$2/}}Props, root) {",
+      "    return [",
+      "      {",
+      "        type: CommandOP.addChild,",
+      "        condition: true,",
+      "        parent: root,",
+      "        child: h('div', {}, 'new child') as { type: 'div' }",
+      "      }",
+      "    ]",
+      "  }",
+      "})",
+      "",
+      "export const meta = NewModule.meta",
+      "export const name = NewModule.name",
+      "export const override = NewModule.override",
+      "export const layout = NewModule.layout",
+      "export const logic = NewModule.logic",
+      "export const designPattern = NewModule.designPattern",
+      "export const designPatterns = NewModule.designPatterns",
+      "export const styleRules = NewModule.styleRules"
+    ],
+    "description": "quick create a tarat component"
+  }
+}
