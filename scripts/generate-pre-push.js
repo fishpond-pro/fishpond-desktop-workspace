@@ -22,17 +22,16 @@ exit 0
 
 const prePushHookTmp = `#!/bin/bash
 
-current_hour=$(date +%H)
-target_hour=23
+dayOfWeek=$(date +%u)  # 获取当前星期几，1代表星期一，7代表星期日
+hourOfDay=$(date +%H)  # 获取当前小时数
 
-if [ "$current_hour" -ne "$target_hour" ]; then
-  echo "Push rejected. You can only push after 11 PM."
-  exit 1
+if [[ $dayOfWeek -eq 6 || $hourOfDay -ge 11 ]]; then
+  exit 0  # 允许推送
+else
+  echo "Error: Push rejected. Pushes are only allowed after 11 AM or on Saturdays."
+  exit 1  # 拒绝推送
 fi
-
-echo "Push enabled."
-
-exit 0`
+`
 
 
 fs.writeFileSync(
