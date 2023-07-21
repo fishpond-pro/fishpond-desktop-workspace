@@ -25,10 +25,11 @@ const prePushHookTmp = `#!/bin/bash
 dayOfWeek=$(date +%u)  # 获取当前星期几，1代表星期一，7代表星期日
 hourOfDay=$(date +%H)  # 获取当前小时数
 
-if [[ $dayOfWeek -eq 6 || $hourOfDay -ge 11 ]]; then
+if [[ $dayOfWeek -eq 6 || $hourOfDay -ge 23 ]]; then
+  echo "Yes we can"
   exit 0  # 允许推送
 else
-  echo "Error: Push rejected. Pushes are only allowed after 11 AM or on Saturdays."
+  echo "Error: Push rejected. Pushes are only allowed after 23:00 or on Saturdays."
   exit 1  # 拒绝推送
 fi
 `
