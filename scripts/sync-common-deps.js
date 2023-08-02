@@ -11,7 +11,7 @@ const deps = {
 
 const packages = [
   path.join(__dirname, '../packages/'),
-  path.join(__dirname, '../packages/fishpond-components'),
+  path.join(__dirname, '../packages/fishpond-components/packages'),
   path.join(__dirname, '../packages/polymita-runtime/packages'),
   path.join(__dirname, '../packages/polymita-runtime/packages/example'),
 ];
@@ -23,6 +23,7 @@ packages.forEach((packagePathDir) => {
   });
 });
 
+console.log('Sync common dependencies done!');
 
 function updatePackageJson (packagePath) {
   const packageJsonPath = path.join(packagePath, 'package.json')
