@@ -30,6 +30,7 @@ function updatePackageJson (packagePath) {
   if (fs.existsSync(packageJsonPath)) {
     const packageJson = require(packageJsonPath);
 
+    // for dependencies
     ['dependencies', 'devDependencies', 'peerDependencies'].forEach((depType) => {
       if (packageJson[depType]) {
         for (const dep in deps) {
@@ -39,6 +40,21 @@ function updatePackageJson (packagePath) {
         }
       }
     })
+
+    // for scripts
+    if (packageJson.scripts) {
+      if (packageJson.dependencies?.['@polymita/server']) {
+        if (!packageJson.scripts.test) {
+          packageJson.scripts.test = 'polymita test'
+        }
+      } else {
+        if (
+          packageJson.scripts.test === 'polymita test'
+        ) {
+          delete packageJson.scripts.test
+        }
+      }
+    }
 
     fs.writeFileSync(packageJsonPath, JSON.stringify(packageJson, null, 2))
   }
