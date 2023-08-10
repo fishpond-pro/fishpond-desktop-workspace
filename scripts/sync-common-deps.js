@@ -20,10 +20,23 @@ packages.forEach((packagePathDir) => {
   fs.readdirSync(packagePathDir).forEach((packageName) => {
     const packagePath = path.join(packagePathDir, packageName);
     updatePackageJson(packagePath);
+    updateIgnore(packagePath)
   });
 });
 
 console.log('Sync common dependencies done!');
+
+function updateIgnore (packagePath) {
+  const fp = path.join(packagePath, '.gitignore')
+  if (fs.existsSync(fp)) {
+    const lines = fs.readFileSync(fp, 'utf-8').split('\n')
+    if (!lines.includes('.test/')) {
+      lines.push('.test/')
+      const newIgnore = lines.join('\n')
+      fs.writeFileSync(fp, newIgnore)
+    }
+  }
+}
 
 function updatePackageJson (packagePath) {
   const packageJsonPath = path.join(packagePath, 'package.json')
