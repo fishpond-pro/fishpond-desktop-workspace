@@ -187,6 +187,7 @@ importers:
       '@polymita/connect': workspace:*
       '@polymita/message-timeline': workspace:*
       '@polymita/renderer': workspace:*
+      '@polymita/rss-source': workspace:*
       '@polymita/server': workspace:*
       '@polymita/signal': workspace:*
       '@polymita/signal-model': workspace:*
@@ -282,6 +283,7 @@ importers:
       '@polymita/connect': link:../polymita-runtime/packages/connect
       '@polymita/message-timeline': link:../fishpond-components/packages/message-timeline2
       '@polymita/renderer': link:../polymita-runtime/packages/renderer
+      '@polymita/rss-source': link:../fishpond-components/packages/rss-source
       '@polymita/server': link:../polymita-runtime/packages/server
       '@polymita/signal': link:../polymita-runtime/packages/signal
       '@polymita/signal-model': link:../polymita-runtime/packages/signal-model
