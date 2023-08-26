@@ -195,6 +195,7 @@ importers:
       '@postlight/parser': 2.2.3
       '@prisma/client': ^4.15.0
       '@sentry/node': 7.50.0
+      '@types/isomorphic-fetch': ^0.0.36
       '@types/lodash': ^4.14.195
       '@types/node': ^18.16.16
       '@types/react': 18.2.18
@@ -226,6 +227,7 @@ importers:
       ioredis: 5.3.2
       ip-regex: 4.3.0
       is-localhost-ip: 2.0.0
+      isomorphic-fetch: ^3.0.0
       jsdom: 22.0.0
       json-bigint: 1.0.0
       json5: 2.2.3
@@ -317,6 +319,7 @@ importers:
       ioredis: 5.3.2
       ip-regex: 4.3.0
       is-localhost-ip: 2.0.0
+      isomorphic-fetch: 3.0.0
       jsdom: 22.0.0
       json-bigint: 1.0.0
       json5: 2.2.3
@@ -365,6 +368,7 @@ importers:
       winston: 3.8.2
       xml2js: 0.5.0
     devDependencies:
+      '@types/isomorphic-fetch': 0.0.36
       '@types/lodash': 4.14.195
       '@types/node': 18.16.18
       '@types/react': 18.2.18
@@ -3609,6 +3613,10 @@ packages:
 
   /@types/http-errors/2.0.1:
     resolution: {integrity: sha512-/K3ds8TRAfBvi5vfjuz8y6+GiAYBZ0x4tXv1Av6CWBWn0IlADc+ZX9pMq7oU0fNQPnBwIZl3rmeLp6SBApbxSQ==}
+
+  /@types/isomorphic-fetch/0.0.36:
+    resolution: {integrity: sha512-ulw4d+vW1HKn4oErSmNN2HYEcHGq0N1C5exlrMM0CRqX1UUpFhGb5lwiom5j9KN3LBJJDLRmYIZz1ghm7FIzZw==}
+    dev: true
 
   /@types/istanbul-lib-coverage/2.0.4:
     resolution: {integrity: sha512-z/QT1XN4K4KYuslS23k62yDIDLwLFkzxOuMplDtObz0+y7VqJCaO2o+SPwHCvLFZh7xazvvoor2tA/hPz9ee7g==}
@@ -8315,6 +8323,15 @@ packages:
   /isobject/3.0.1:
     resolution: {integrity: sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==}
     engines: {node: '>=0.10.0'}
+    dev: false
+
+  /isomorphic-fetch/3.0.0:
+    resolution: {integrity: sha512-qvUtwJ3j6qwsF3jLxkZ72qCgjMysPzDfeV240JHiGZsANBYd+EEuu35v7dfrJ9Up0Ak07D7GGSkGhCHTqg/5wA==}
+    dependencies:
+      node-fetch: 2.6.11
+      whatwg-fetch: 3.6.17
+    transitivePeerDependencies:
+      - encoding
     dev: false
 
   /isstream/0.1.2:
@@ -14735,6 +14752,10 @@ packages:
       iconv-lite: 0.6.3
     dev: false
 
+  /whatwg-fetch/3.6.17:
+    resolution: {integrity: sha512-c4ghIvG6th0eudYwKZY5keb81wtFz9/WeAHAoy8+r18kcWlitUIrmGFQ2rWEl4UCKUilD3zCLHOIPheHx5ypRQ==}
+    dev: false
+
   /whatwg-mimetype/3.0.0:
     resolution: {integrity: sha512-nt+N2dzIutVRxARx1nghPKGv1xHikU7HKdfafKkLNLindmPU/ch3U31NOCGGA/dmPcmb1VlofO0vnKAcsm0o/Q==}
     engines: {node: '>=12'}
@@ -15002,7 +15023,7 @@ packages:
     dev: true
 
   github.com/postlight/difflib.js/32e8e38c7fcd935241b9baab71bb432fd9b166ed:
-    resolution: {commit: 32e8e38c7fcd935241b9baab71bb432fd9b166ed, repo: git+ssh://git@github.com/postlight/difflib.js.git, type: git}
+    resolution: {tarball: https://codeload.github.com/postlight/difflib.js/tar.gz/32e8e38c7fcd935241b9baab71bb432fd9b166ed}
     name: difflib
     version: 0.2.6
     dependencies:
