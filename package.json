@@ -6,6 +6,9 @@
     "type": "git",
     "url": "git+https://github.com/fishpond-pro/fishpond-desktop-workspace.git"
   },
+  "scripts": {
+    "build:all":"pnpm --recursive run build"
+  },
   "author": "zhou-yg",
   "bugs": {
     "url": "https://github.com/fishpond-pro/fishpond-desktop-workspace/issues"
