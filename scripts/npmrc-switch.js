@@ -17,8 +17,10 @@ function replaceRegistry(file) {
   const newCode = code.split('\n').map(row => {
     if (/^registry=/.test(row)) {
       if (row.includes(registry2)) {
+        console.log('switch to registry: ', registry1);
         return `registry=${registry1}`
       } else {
+        console.log('switch to registry: ', registry2);
         return `registry=${registry2}`
       }
     }
