@@ -10,3 +10,6 @@
 [submodule "packages/fishpond-components"]
 	path = packages/fishpond-components
 	url = git@github.com:fishpond-pro/fishpond-components.git
+[submodule "packages/fishpond-desktop3"]
+	path = packages/fishpond-desktop3
+	url = git@github.com:fishpond-pro/fishpond-desktop2.git
