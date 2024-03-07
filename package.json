@@ -7,11 +7,15 @@
     "url": "git+https://github.com/fishpond-pro/fishpond-desktop-workspace.git"
   },
   "scripts": {
-    "build:all":"pnpm --recursive run build"
+    "build:all": "pnpm --recursive run build"
   },
   "author": "zhou-yg",
   "bugs": {
     "url": "https://github.com/fishpond-pro/fishpond-desktop-workspace/issues"
   },
-  "homepage": "https://github.com/fishpond-pro/fishpond-desktop-workspace#readme"
+  "homepage": "https://github.com/fishpond-pro/fishpond-desktop-workspace#readme",
+  "volta": {
+    "node": "20.11.1",
+    "pnpm": "8.15.4"
+  }
 }
