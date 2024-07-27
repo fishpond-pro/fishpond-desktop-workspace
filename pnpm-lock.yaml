@@ -81,6 +81,170 @@ importers:
         specifier: ^5
         version: 5.4.2
 
+  packages/fishpond-components/packages/message-list:
+    dependencies:
+      '@emotion/react':
+        specifier: ^11.10.6
+        version: 11.11.4(@types/react@18.2.18)(react@18.2.0)
+      '@emotion/styled':
+        specifier: ^11.10.6
+        version: 11.11.0(@emotion/react@11.11.4)(@types/react@18.2.18)(react@18.2.0)
+      '@mui/lab':
+        specifier: 5.0.0-alpha.172
+        version: 5.0.0-alpha.172(@emotion/react@11.11.4)(@emotion/styled@11.11.0)(@mui/material@5.16.0)(@types/react@18.2.18)(react-dom@18.2.0)(react@18.2.0)
+      '@mui/material':
+        specifier: ^5.16.0
+        version: 5.16.0(@emotion/react@11.11.4)(@emotion/styled@11.11.0)(@types/react@18.2.18)(react-dom@18.2.0)(react@18.2.0)
+      '@polymita/basic-layout':
+        specifier: workspace:^
+        version: link:../basic-layout
+      '@polymita/next-connect':
+        specifier: workspace:^
+        version: link:../../../polymita-runtime/packages/next-connect
+      '@polymita/next-server':
+        specifier: workspace:^
+        version: link:../../../polymita-runtime/packages/next-server
+      '@polymita/renderer':
+        specifier: workspace:^
+        version: link:../../../polymita-runtime/packages/renderer
+      '@prisma/client':
+        specifier: ^5.10.2
+        version: 5.10.2(prisma@5.10.2)
+      date-fns:
+        specifier: ^2.29.3
+        version: 2.30.0
+      fast-xml-parser:
+        specifier: ^4.4.0
+        version: 4.4.0
+      next:
+        specifier: 14.1.0
+        version: 14.1.0(react-dom@18.2.0)(react@18.2.0)
+      prisma:
+        specifier: ^5.10.2
+        version: 5.10.2
+      react:
+        specifier: ^18
+        version: 18.2.0
+      react-dom:
+        specifier: ^18
+        version: 18.2.0(react@18.2.0)
+      showdown:
+        specifier: ^2.1.0
+        version: 2.1.0
+    devDependencies:
+      '@types/node':
+        specifier: ^20
+        version: 20.11.25
+      '@types/react':
+        specifier: ^18
+        version: 18.2.18
+      '@types/react-dom':
+        specifier: ^18
+        version: 18.2.7
+      autoprefixer:
+        specifier: ^10.0.1
+        version: 10.4.15(postcss@8.4.35)
+      eslint:
+        specifier: ^8
+        version: 8.57.0
+      eslint-config-next:
+        specifier: 14.1.0
+        version: 14.1.0(eslint@8.57.0)(typescript@5.4.2)
+      postcss:
+        specifier: ^8
+        version: 8.4.35
+      tailwindcss:
+        specifier: ^3.3.0
+        version: 3.4.3
+      typescript:
+        specifier: ^5
+        version: 5.4.2
+
+  packages/fishpond-components/packages/rss-query:
+    dependencies:
+      '@emotion/react':
+        specifier: ^11.10.6
+        version: 11.11.4(@types/react@18.2.18)(react@18.2.0)
+      '@emotion/styled':
+        specifier: ^11.10.6
+        version: 11.11.0(@emotion/react@11.11.4)(@types/react@18.2.18)(react@18.2.0)
+      '@mui/lab':
+        specifier: 5.0.0-alpha.172
+        version: 5.0.0-alpha.172(@emotion/react@11.11.4)(@emotion/styled@11.11.0)(@mui/material@5.16.0)(@types/react@18.2.18)(react-dom@18.2.0)(react@18.2.0)
+      '@mui/material':
+        specifier: ^5.16.0
+        version: 5.16.0(@emotion/react@11.11.4)(@emotion/styled@11.11.0)(@types/react@18.2.18)(react-dom@18.2.0)(react@18.2.0)
+      '@polymita/basic-layout':
+        specifier: workspace:^
+        version: link:../basic-layout
+      '@polymita/message-list':
+        specifier: workspace:^
+        version: link:../message-list
+      '@polymita/next-connect':
+        specifier: workspace:^
+        version: link:../../../polymita-runtime/packages/next-connect
+      '@polymita/next-server':
+        specifier: workspace:^
+        version: link:../../../polymita-runtime/packages/next-server
+      '@polymita/renderer':
+        specifier: workspace:^
+        version: link:../../../polymita-runtime/packages/renderer
+      '@polymita/rss-sources-add':
+        specifier: workspace:^
+        version: link:../rss-sources-add
+      '@prisma/client':
+        specifier: ^5.10.2
+        version: 5.10.2(prisma@5.10.2)
+      date-fns:
+        specifier: ^2.29.3
+        version: 2.30.0
+      fast-xml-parser:
+        specifier: ^4.4.0
+        version: 4.4.0
+      next:
+        specifier: 14.1.0
+        version: 14.1.0(react-dom@18.2.0)(react@18.2.0)
+      prisma:
+        specifier: ^5.10.2
+        version: 5.10.2
+      react:
+        specifier: ^18
+        version: 18.2.0
+      react-dom:
+        specifier: ^18
+        version: 18.2.0(react@18.2.0)
+      showdown:
+        specifier: ^2.1.0
+        version: 2.1.0
+    devDependencies:
+      '@types/node':
+        specifier: ^20
+        version: 20.11.25
+      '@types/react':
+        specifier: ^18
+        version: 18.2.18
+      '@types/react-dom':
+        specifier: ^18
+        version: 18.2.7
+      autoprefixer:
+        specifier: ^10.0.1
+        version: 10.4.15(postcss@8.4.35)
+      eslint:
+        specifier: ^8
+        version: 8.57.0
+      eslint-config-next:
+        specifier: 14.1.0
+        version: 14.1.0(eslint@8.57.0)(typescript@5.4.2)
+      postcss:
+        specifier: ^8
+        version: 8.4.35
+      tailwindcss:
+        specifier: ^3.3.0
+        version: 3.4.3
+      typescript:
+        specifier: ^5
+        version: 5.4.2
+
   packages/fishpond-components/packages/rss-sources:
     dependencies:
       '@emotion/react':
@@ -1927,7 +2091,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@babel/runtime': 7.24.0
+      '@babel/runtime': 7.24.7
       '@emotion/babel-plugin': 11.11.0
       '@emotion/cache': 11.11.0
       '@emotion/serialize': 1.1.3
@@ -1973,7 +2137,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@babel/runtime': 7.24.0
+      '@babel/runtime': 7.24.7
       '@emotion/babel-plugin': 11.11.0
       '@emotion/is-prop-valid': 1.2.2
       '@emotion/react': 11.11.4(@types/react@18.2.18)(react@18.2.0)
@@ -3364,9 +3528,9 @@ packages:
       '@emotion/styled': 11.11.0(@emotion/react@11.11.4)(@types/react@18.2.18)(react@18.2.0)
       '@mui/base': 5.0.0-beta.40(@types/react@18.2.18)(react-dom@18.2.0)(react@18.2.0)
       '@mui/core-downloads-tracker': 5.16.0
-      '@mui/system': 5.16.0(@emotion/react@11.11.4)(@emotion/styled@11.11.0)(@types/react@18.2.18)(react@18.2.0)
-      '@mui/types': 7.2.14(@types/react@18.2.18)
-      '@mui/utils': 5.16.0(@types/react@18.2.18)(react@18.2.0)
+      '@mui/system': 5.16.1(@emotion/react@11.11.4)(@emotion/styled@11.11.0)(@types/react@18.2.18)(react@18.2.0)
+      '@mui/types': 7.2.15(@types/react@18.2.18)
+      '@mui/utils': 5.16.1(@types/react@18.2.18)(react@18.2.0)
       '@types/react': 18.2.18
       '@types/react-transition-group': 4.4.10
       clsx: 2.1.1
@@ -3376,23 +3540,6 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
       react-is: 18.3.1
       react-transition-group: 4.4.5(react-dom@18.2.0)(react@18.2.0)
-    dev: false
-
-  /@mui/private-theming@5.16.0(@types/react@18.2.18)(react@18.2.0):
-    resolution: {integrity: sha512-sYpubkO1MZOnxNyVOClrPNOTs0MfuRVVnAvCeMaOaXt6GimgQbnUcshYv2pSr6PFj+Mqzdff/FYOBceK8u5QgA==}
-    engines: {node: '>=12.0.0'}
-    peerDependencies:
-      '@types/react': ^17.0.0 || ^18.0.0
-      react: ^17.0.0 || ^18.0.0
-    peerDependenciesMeta:
-      '@types/react':
-        optional: true
-    dependencies:
-      '@babel/runtime': 7.24.7
-      '@mui/utils': 5.16.0(@types/react@18.2.18)(react@18.2.0)
-      '@types/react': 18.2.18
-      prop-types: 15.8.1
-      react: 18.2.0
     dev: false
 
   /@mui/private-theming@5.16.1(@types/react@18.2.18)(react@18.2.0):
@@ -3408,28 +3555,6 @@ packages:
       '@babel/runtime': 7.24.7
       '@mui/utils': 5.16.1(@types/react@18.2.18)(react@18.2.0)
       '@types/react': 18.2.18
-      prop-types: 15.8.1
-      react: 18.2.0
-    dev: false
-
-  /@mui/styled-engine@5.15.14(@emotion/react@11.11.4)(@emotion/styled@11.11.0)(react@18.2.0):
-    resolution: {integrity: sha512-RILkuVD8gY6PvjZjqnWhz8fu68dVkqhM5+jYWfB5yhlSQKg+2rHkmEwm75XIeAqI3qwOndK6zELK5H6Zxn4NHw==}
-    engines: {node: '>=12.0.0'}
-    peerDependencies:
-      '@emotion/react': ^11.4.1
-      '@emotion/styled': ^11.3.0
-      react: ^17.0.0 || ^18.0.0
-    peerDependenciesMeta:
-      '@emotion/react':
-        optional: true
-      '@emotion/styled':
-        optional: true
-    dependencies:
-      '@babel/runtime': 7.24.7
-      '@emotion/cache': 11.11.0
-      '@emotion/react': 11.11.4(@types/react@18.2.18)(react@18.2.0)
-      '@emotion/styled': 11.11.0(@emotion/react@11.11.4)(@types/react@18.2.18)(react@18.2.0)
-      csstype: 3.1.3
       prop-types: 15.8.1
       react: 18.2.0
     dev: false
@@ -3451,36 +3576,6 @@ packages:
       '@emotion/cache': 11.11.0
       '@emotion/react': 11.11.4(@types/react@18.2.18)(react@18.2.0)
       '@emotion/styled': 11.11.0(@emotion/react@11.11.4)(@types/react@18.2.18)(react@18.2.0)
-      csstype: 3.1.3
-      prop-types: 15.8.1
-      react: 18.2.0
-    dev: false
-
-  /@mui/system@5.16.0(@emotion/react@11.11.4)(@emotion/styled@11.11.0)(@types/react@18.2.18)(react@18.2.0):
-    resolution: {integrity: sha512-9YbkC2m3+pNumAvubYv+ijLtog6puJ0fJ6rYfzfLCM47pWrw3m+30nXNM8zMgDaKL6vpfWJcCXm+LPaWBpy7sw==}
-    engines: {node: '>=12.0.0'}
-    peerDependencies:
-      '@emotion/react': ^11.5.0
-      '@emotion/styled': ^11.3.0
-      '@types/react': ^17.0.0 || ^18.0.0
-      react: ^17.0.0 || ^18.0.0
-    peerDependenciesMeta:
-      '@emotion/react':
-        optional: true
-      '@emotion/styled':
-        optional: true
-      '@types/react':
-        optional: true
-    dependencies:
-      '@babel/runtime': 7.24.7
-      '@emotion/react': 11.11.4(@types/react@18.2.18)(react@18.2.0)
-      '@emotion/styled': 11.11.0(@emotion/react@11.11.4)(@types/react@18.2.18)(react@18.2.0)
-      '@mui/private-theming': 5.16.0(@types/react@18.2.18)(react@18.2.0)
-      '@mui/styled-engine': 5.15.14(@emotion/react@11.11.4)(@emotion/styled@11.11.0)(react@18.2.0)
-      '@mui/types': 7.2.14(@types/react@18.2.18)
-      '@mui/utils': 5.16.0(@types/react@18.2.18)(react@18.2.0)
-      '@types/react': 18.2.18
-      clsx: 2.1.1
       csstype: 3.1.3
       prop-types: 15.8.1
       react: 18.2.0
@@ -3516,17 +3611,6 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@mui/types@7.2.14(@types/react@18.2.18):
-    resolution: {integrity: sha512-MZsBZ4q4HfzBsywtXgM1Ksj6HDThtiwmOKUXH1pKYISI9gAVXCNHNpo7TlGoGrBaYWZTdNoirIN7JsQcQUjmQQ==}
-    peerDependencies:
-      '@types/react': ^17.0.0 || ^18.0.0
-    peerDependenciesMeta:
-      '@types/react':
-        optional: true
-    dependencies:
-      '@types/react': 18.2.18
-    dev: false
-
   /@mui/types@7.2.15(@types/react@18.2.18):
     resolution: {integrity: sha512-nbo7yPhtKJkdf9kcVOF8JZHPZTmqXjJ/tI0bdWgHg5tp9AnIN4Y7f7wm9T+0SyGYJk76+GYZ8Q5XaTYAsUHN0Q==}
     peerDependencies:
@@ -3536,24 +3620,6 @@ packages:
         optional: true
     dependencies:
       '@types/react': 18.2.18
-    dev: false
-
-  /@mui/utils@5.16.0(@types/react@18.2.18)(react@18.2.0):
-    resolution: {integrity: sha512-kLLi5J1xY+mwtUlMb8Ubdxf4qFAA1+U7WPBvjM/qQ4CIwLCohNb0sHo1oYPufjSIH/Z9+dhVxD7dJlfGjd1AVA==}
-    engines: {node: '>=12.0.0'}
-    peerDependencies:
-      '@types/react': ^17.0.0 || ^18.0.0
-      react: ^17.0.0 || ^18.0.0
-    peerDependenciesMeta:
-      '@types/react':
-        optional: true
-    dependencies:
-      '@babel/runtime': 7.24.7
-      '@types/prop-types': 15.7.12
-      '@types/react': 18.2.18
-      prop-types: 15.8.1
-      react: 18.2.0
-      react-is: 18.3.1
     dev: false
 
   /@mui/utils@5.16.1(@types/react@18.2.18)(react@18.2.0):
@@ -5305,8 +5371,8 @@ packages:
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      browserslist: 4.23.0
-      caniuse-lite: 1.0.30001625
+      browserslist: 4.23.1
+      caniuse-lite: 1.0.30001640
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.1
@@ -5321,8 +5387,8 @@ packages:
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      browserslist: 4.23.0
-      caniuse-lite: 1.0.30001625
+      browserslist: 4.23.1
+      caniuse-lite: 1.0.30001640
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.1
@@ -6127,7 +6193,7 @@ packages:
     resolution: {integrity: sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==}
     engines: {node: '>=0.11'}
     dependencies:
-      '@babel/runtime': 7.24.0
+      '@babel/runtime': 7.24.7
     dev: false
 
   /debug@3.2.7:
@@ -10393,7 +10459,7 @@ packages:
       '@next/env': 14.1.0
       '@swc/helpers': 0.5.2
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001625
+      caniuse-lite: 1.0.30001640
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 18.2.0
