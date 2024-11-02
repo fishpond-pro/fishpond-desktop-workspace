@@ -783,313 +783,6 @@ importers:
         specifier: ^5
         version: 5.4.2
 
-  packages/fishpond-desktop3:
-    dependencies:
-      '@emotion/react':
-        specifier: ^11.10.6
-        version: 11.11.4(@types/react@18.3.3)(react@18.2.0)
-      '@emotion/styled':
-        specifier: ^11.10.6
-        version: 11.11.0(@emotion/react@11.11.4)(@types/react@18.3.3)(react@18.2.0)
-      '@koa/cors':
-        specifier: ^3.1.0
-        version: 3.4.3
-      '@koa/router':
-        specifier: 12.0.0
-        version: 12.0.0
-      '@mui/lab':
-        specifier: 5.0.0-alpha.172
-        version: 5.0.0-alpha.172(@emotion/react@11.11.4)(@emotion/styled@11.11.0)(@mui/material@5.16.0)(@types/react@18.3.3)(react-dom@18.2.0)(react@18.2.0)
-      '@mui/material':
-        specifier: ^5.16.0
-        version: 5.16.0(@emotion/react@11.11.4)(@emotion/styled@11.11.0)(@types/react@18.3.3)(react-dom@18.2.0)(react@18.2.0)
-      '@polymita/basic-layout':
-        specifier: workspace:^
-        version: link:../fishpond-components/packages/basic-layout
-      '@polymita/message-list':
-        specifier: workspace:^
-        version: link:../fishpond-components/packages/message-list
-      '@polymita/next-connect':
-        specifier: workspace:^
-        version: link:../polymita-runtime/packages/next-connect
-      '@polymita/next-server':
-        specifier: workspace:^
-        version: link:../polymita-runtime/packages/next-server
-      '@polymita/renderer':
-        specifier: workspace:^
-        version: link:../polymita-runtime/packages/renderer
-      '@polymita/rss-sources':
-        specifier: workspace:^
-        version: link:../fishpond-components/packages/rss-sources
-      '@polymita/rss-sources-add':
-        specifier: workspace:^
-        version: link:../fishpond-components/packages/rss-sources-add
-      '@polymita/signal':
-        specifier: workspace:^
-        version: link:../polymita-runtime/packages/signal
-      '@polymita/signal-model':
-        specifier: workspace:^
-        version: link:../polymita-runtime/packages/signal-model
-      '@prisma/client':
-        specifier: ^5.10.2
-        version: 5.10.2(prisma@5.10.2)
-      '@sentry/node':
-        specifier: 7.50.0
-        version: 7.50.0
-      aes-js:
-        specifier: 3.1.2
-        version: 3.1.2
-      art-template:
-        specifier: 4.13.2
-        version: 4.13.2
-      bbcodejs:
-        specifier: 0.0.4
-        version: 0.0.4
-      cheerio:
-        specifier: 1.0.0-rc.12
-        version: 1.0.0-rc.12
-      chrono-node:
-        specifier: 2.6.3
-        version: 2.6.3
-      city-timezones:
-        specifier: 1.2.1
-        version: 1.2.1
-      crypto-js:
-        specifier: 4.1.1
-        version: 4.1.1
-      currency-symbol-map:
-        specifier: 5.1.0
-        version: 5.1.0
-      date-fns:
-        specifier: ^2.29.3
-        version: 2.30.0
-      dayjs:
-        specifier: 1.11.7
-        version: 1.11.7
-      dotenv:
-        specifier: 16.0.3
-        version: 16.0.3
-      electron:
-        specifier: ^29.3.0
-        version: 29.3.0
-      emailjs-imap-client:
-        specifier: 3.1.0
-        version: 3.1.0
-      entities:
-        specifier: 4.5.0
-        version: 4.5.0
-      etag:
-        specifier: 1.8.1
-        version: 1.8.1
-      fanfou-sdk:
-        specifier: 4.2.0
-        version: 4.2.0
-      fast-xml-parser:
-        specifier: ^4.4.0
-        version: 4.4.0
-      git-rev-sync:
-        specifier: 3.0.2
-        version: 3.0.2
-      googleapis:
-        specifier: 118.0.0
-        version: 118.0.0
-      got:
-        specifier: 11.8.6
-        version: 11.8.6
-      http-proxy-agent:
-        specifier: ^7.0.2
-        version: 7.0.2
-      https-proxy-agent:
-        specifier: 6.1.0
-        version: 6.1.0
-      iconv-lite:
-        specifier: 0.6.3
-        version: 0.6.3
-      instagram-private-api:
-        specifier: 1.45.3
-        version: 1.45.3(re2@1.18.0)
-      ioredis:
-        specifier: 5.3.2
-        version: 5.3.2
-      ip-regex:
-        specifier: 4.3.0
-        version: 4.3.0
-      is-localhost-ip:
-        specifier: 2.0.0
-        version: 2.0.0
-      jsdom:
-        specifier: 22.0.0
-        version: 22.0.0
-      json-bigint:
-        specifier: 1.0.0
-        version: 1.0.0
-      json5:
-        specifier: 2.2.3
-        version: 2.2.3
-      koa:
-        specifier: 2.14.2
-        version: 2.14.2
-      koa-basic-auth:
-        specifier: 4.0.0
-        version: 4.0.0
-      koa-body:
-        specifier: ^6.0.1
-        version: 6.0.1
-      koa-bodyparser:
-        specifier: ^4.3.0
-        version: 4.4.1
-      koa-compress:
-        specifier: ^4.0.1
-        version: 4.0.1
-      koa-cookie:
-        specifier: ^1.0.0
-        version: 1.0.0
-      koa-favicon:
-        specifier: 2.1.0
-        version: 2.1.0
-      koa-json:
-        specifier: ^2.0.2
-        version: 2.0.2
-      koa-logger:
-        specifier: ^3.2.0
-        version: 3.2.1
-      koa-mount:
-        specifier: 4.0.0
-        version: 4.0.0
-      koa-onerror:
-        specifier: ^4.1.0
-        version: 4.2.0
-      koa-router:
-        specifier: ^9.0.1
-        version: 9.4.0
-      lodash:
-        specifier: ^4.17.21
-        version: 4.17.21
-      lru-cache:
-        specifier: 9.1.1
-        version: 9.1.1
-      lz-string:
-        specifier: 1.5.0
-        version: 1.5.0
-      mailparser:
-        specifier: 3.6.4
-        version: 3.6.4
-      markdown-it:
-        specifier: 13.0.1
-        version: 13.0.1
-      module-alias:
-        specifier: 2.2.2
-        version: 2.2.2
-      next:
-        specifier: 14.1.0
-        version: 14.1.0(@babel/core@7.25.2)(react-dom@18.2.0)(react@18.2.0)
-      pidusage:
-        specifier: 3.0.2
-        version: 3.0.2
-      plist:
-        specifier: 3.0.6
-        version: 3.0.6
-      prisma:
-        specifier: ^5.10.2
-        version: 5.10.2
-      proxy-chain:
-        specifier: 2.3.0
-        version: 2.3.0
-      puppeteer:
-        specifier: 20.1.0
-        version: 20.1.0(typescript@5.3.3)
-      puppeteer-extra:
-        specifier: 3.3.6
-        version: 3.3.6(puppeteer@20.1.0)
-      puppeteer-extra-plugin-stealth:
-        specifier: 2.11.2
-        version: 2.11.2(puppeteer-extra@3.3.6)
-      puppeteer-extra-plugin-user-data-dir:
-        specifier: 2.4.1
-        version: 2.4.1(puppeteer-extra@3.3.6)
-      puppeteer-extra-plugin-user-preferences:
-        specifier: 2.4.1
-        version: 2.4.1(puppeteer-extra@3.3.6)
-      query-string:
-        specifier: 7.1.3
-        version: 7.1.3
-      rand-user-agent:
-        specifier: 1.0.109
-        version: 1.0.109
-      re2:
-        specifier: 1.18.0
-        version: 1.18.0
-      react:
-        specifier: ^18
-        version: 18.2.0
-      react-dom:
-        specifier: ^18
-        version: 18.2.0(react@18.2.0)
-      require-all:
-        specifier: 3.0.0
-        version: 3.0.0
-      rss-parser:
-        specifier: 3.13.0
-        version: 3.13.0
-      sax:
-        specifier: ^1.4.1
-        version: 1.4.1
-      showdown:
-        specifier: ^2.1.0
-        version: 2.1.0
-      simplecc-wasm:
-        specifier: 0.1.5
-        version: 0.1.5
-      socks-proxy-agent:
-        specifier: 8.0.1
-        version: 8.0.1
-      source-map:
-        specifier: 0.7.4
-        version: 0.7.4
-      tiny-async-pool:
-        specifier: 2.1.0
-        version: 2.1.0
-      tough-cookie:
-        specifier: 4.1.2
-        version: 4.1.2
-      twitter-api-v2:
-        specifier: 1.14.2
-        version: 1.14.2
-      winston:
-        specifier: 3.8.2
-        version: 3.8.2
-      xml2js:
-        specifier: 0.5.0
-        version: 0.5.0
-    devDependencies:
-      '@types/node':
-        specifier: ^20
-        version: 20.11.25
-      '@types/react':
-        specifier: ^18.3.3
-        version: 18.3.3
-      '@types/react-dom':
-        specifier: ^18.2.7
-        version: 18.2.7
-      autoprefixer:
-        specifier: ^10.0.1
-        version: 10.4.15(postcss@8.4.35)
-      eslint:
-        specifier: ^8
-        version: 8.57.0
-      eslint-config-next:
-        specifier: 14.1.0
-        version: 14.1.0(eslint@8.57.0)(typescript@5.3.3)
-      postcss:
-        specifier: ^8
-        version: 8.4.35
-      tailwindcss:
-        specifier: ^3.3.0
-        version: 3.3.2
-      typescript:
-        specifier: ^5
-        version: 5.3.3
-
   packages/fishpond-desktop4:
     dependencies:
       '@emotion/react':
@@ -5301,29 +4994,6 @@ packages:
     resolution: {integrity: sha512-1vuW5Cp6DnZpSmmM3dRsJ7do3LncJVkBAV9wwqGSLANDUNWDPfJwC7enN/YY3rnwkEVXMxzkTEbtYGA55blDLw==}
     dev: false
 
-  /@puppeteer/browsers@1.0.0(typescript@5.3.3):
-    resolution: {integrity: sha512-YKecOIlwH0UsiM9zkKy31DYg11iD8NhOoQ7SQ4oCpwDSd1Ud31WYRoAldbVlVBj9b4hLJIXxn7XSnkH1ta1tpA==}
-    engines: {node: '>=16.0.0'}
-    hasBin: true
-    peerDependencies:
-      typescript: '>= 4.7.4'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-    dependencies:
-      debug: 4.3.4
-      extract-zip: 2.0.1
-      https-proxy-agent: 5.0.1
-      progress: 2.0.3
-      proxy-from-env: 1.1.0
-      tar-fs: 2.1.1
-      typescript: 5.3.3
-      unbzip2-stream: 1.4.3
-      yargs: 17.7.1
-    transitivePeerDependencies:
-      - supports-color
-    dev: false
-
   /@puppeteer/browsers@1.0.0(typescript@5.4.2):
     resolution: {integrity: sha512-YKecOIlwH0UsiM9zkKy31DYg11iD8NhOoQ7SQ4oCpwDSd1Ud31WYRoAldbVlVBj9b4hLJIXxn7XSnkH1ta1tpA==}
     engines: {node: '>=16.0.0'}
@@ -6390,27 +6060,6 @@ packages:
     dev: false
     optional: true
 
-  /@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-tbsV1jPne5CkFQCgPBcDOt30ItF7aJoZL997JSF7MhGQqOeT3svWRYxiqlfA5RUdlHN6Fi+EI9bxqbdyAUZjYQ==}
-    engines: {node: ^16.0.0 || >=18.0.0}
-    peerDependencies:
-      eslint: ^7.0.0 || ^8.0.0
-      typescript: '*'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-    dependencies:
-      '@typescript-eslint/scope-manager': 6.21.0
-      '@typescript-eslint/types': 6.21.0
-      '@typescript-eslint/typescript-estree': 6.21.0(typescript@5.3.3)
-      '@typescript-eslint/visitor-keys': 6.21.0
-      debug: 4.3.5
-      eslint: 8.57.0
-      typescript: 5.3.3
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
   /@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.4.2):
     resolution: {integrity: sha512-tbsV1jPne5CkFQCgPBcDOt30ItF7aJoZL997JSF7MhGQqOeT3svWRYxiqlfA5RUdlHN6Fi+EI9bxqbdyAUZjYQ==}
     engines: {node: ^16.0.0 || >=18.0.0}
@@ -6464,28 +6113,6 @@ packages:
   /@typescript-eslint/types@6.21.0:
     resolution: {integrity: sha512-1kFmZ1rOm5epu9NZEZm1kckCDGj5UJEf7P1kliH4LKu/RkwpsfqqGmY2OOcUs18lSlQBKLDYBOGxRVtrMN5lpg==}
     engines: {node: ^16.0.0 || >=18.0.0}
-    dev: true
-
-  /@typescript-eslint/typescript-estree@6.21.0(typescript@5.3.3):
-    resolution: {integrity: sha512-6npJTkZcO+y2/kr+z0hc4HwNfrrP4kNYh57ek7yCNlrBjWQ1Y0OS7jiZTkgumrvkX5HkEKXFZkkdFNkaW2wmUQ==}
-    engines: {node: ^16.0.0 || >=18.0.0}
-    peerDependencies:
-      typescript: '*'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-    dependencies:
-      '@typescript-eslint/types': 6.21.0
-      '@typescript-eslint/visitor-keys': 6.21.0
-      debug: 4.3.6
-      globby: 11.1.0
-      is-glob: 4.0.3
-      minimatch: 9.0.3
-      semver: 7.5.4
-      ts-api-utils: 1.2.1(typescript@5.3.3)
-      typescript: 5.3.3
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /@typescript-eslint/typescript-estree@6.21.0(typescript@5.4.2):
@@ -9144,19 +8771,6 @@ packages:
       - supports-color
     dev: false
 
-  /electron@29.3.0:
-    resolution: {integrity: sha512-ZxFKm0/v48GSoBuO3DdnMlCYXefEUKUHLMsKxyXY4nZGgzbBKpF/X8haZa2paNj23CLfsCKBOtfc2vsEQiOOsA==}
-    engines: {node: '>= 12.20.55'}
-    hasBin: true
-    requiresBuild: true
-    dependencies:
-      '@electron/get': 2.0.2
-      '@types/node': 20.17.0
-      extract-zip: 2.0.1
-    transitivePeerDependencies:
-      - supports-color
-    dev: false
-
   /electron@32.0.2:
     resolution: {integrity: sha512-nmZblq8wW3HZ17MAyaUuiMI9Mb0Cgc7UR3To85h/rVopbfyF5s34NxtK4gvyRfYPxpDGP4k+HoQIPniPPrdE3w==}
     engines: {node: '>= 12.20.55'}
@@ -9872,31 +9486,6 @@ packages:
     optionalDependencies:
       source-map: 0.6.1
     dev: false
-
-  /eslint-config-next@14.1.0(eslint@8.57.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-SBX2ed7DoRFXC6CQSLc/SbLY9Ut6HxNB2wPTcoIWjUMd7aF7O/SIE7111L8FdZ9TXsNV4pulUDnfthpyPtbFUg==}
-    peerDependencies:
-      eslint: ^7.23.0 || ^8.0.0
-      typescript: '>=3.3.1'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-    dependencies:
-      '@next/eslint-plugin-next': 14.1.0
-      '@rushstack/eslint-patch': 1.7.2
-      '@typescript-eslint/parser': 6.21.0(eslint@8.57.0)(typescript@5.3.3)
-      eslint: 8.57.0
-      eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-typescript: 3.6.1(@typescript-eslint/parser@6.21.0)(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1)(eslint@8.57.0)
-      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.21.0)(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0)
-      eslint-plugin-jsx-a11y: 6.8.0(eslint@8.57.0)
-      eslint-plugin-react: 7.34.0(eslint@8.57.0)
-      eslint-plugin-react-hooks: 4.6.0(eslint@8.57.0)
-      typescript: 5.3.3
-    transitivePeerDependencies:
-      - eslint-import-resolver-webpack
-      - supports-color
-    dev: true
 
   /eslint-config-next@14.1.0(eslint@8.57.0)(typescript@5.4.2):
     resolution: {integrity: sha512-SBX2ed7DoRFXC6CQSLc/SbLY9Ut6HxNB2wPTcoIWjUMd7aF7O/SIE7111L8FdZ9TXsNV4pulUDnfthpyPtbFUg==}
@@ -11383,16 +10972,6 @@ packages:
       '@tootallnate/once': 2.0.0
       agent-base: 6.0.2
       debug: 4.3.5
-    transitivePeerDependencies:
-      - supports-color
-    dev: false
-
-  /http-proxy-agent@7.0.2:
-    resolution: {integrity: sha512-T1gkAiYYDWYx3V5Bmyu7HcfcvL7mUrTWiM6yOfa3PIphViJ/gFPbvidQ+veqSOHci/PxBcDabeUNCzpOODJZig==}
-    engines: {node: '>= 14'}
-    dependencies:
-      agent-base: 7.1.1
-      debug: 4.3.6
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -13161,6 +12740,7 @@ packages:
   /jiti@1.18.2:
     resolution: {integrity: sha512-QAdOptna2NYiSSpv0O/BwoHBSmz4YhpzJHyi+fnMRTXFjp7B8i/YG5Z8IfusxB1ufjcD2Sre1F3R+nX3fvy7gg==}
     hasBin: true
+    dev: false
 
   /jiti@1.21.0:
     resolution: {integrity: sha512-gFqAIbuKyyso/3G2qhiO2OM6shY6EPP/R0+mkDbyspxKazh8BXDC5FiFsUjlczgdNz/vfra0da2y+aHrusLG/Q==}
@@ -15768,34 +15348,6 @@ packages:
     resolution: {integrity: sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==}
     engines: {node: '>=6'}
 
-  /puppeteer-core@20.1.0(typescript@5.3.3):
-    resolution: {integrity: sha512-/xTvabzAN4mnnuYkJCuWNnnEhOb3JrBTa3sY6qVi1wybuIEk5ODRg8Z5PPiKUGiKC9iG7GWOJ5CjF3iuMuxZSA==}
-    engines: {node: '>=16.0.0'}
-    peerDependencies:
-      typescript: '>= 4.7.4'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-    dependencies:
-      '@puppeteer/browsers': 1.0.0(typescript@5.3.3)
-      chromium-bidi: 0.4.7(devtools-protocol@0.0.1120988)
-      cross-fetch: 3.1.5
-      debug: 4.3.4
-      devtools-protocol: 0.0.1120988
-      extract-zip: 2.0.1
-      https-proxy-agent: 5.0.1
-      proxy-from-env: 1.1.0
-      tar-fs: 2.1.1
-      typescript: 5.3.3
-      unbzip2-stream: 1.4.3
-      ws: 8.13.0
-    transitivePeerDependencies:
-      - bufferutil
-      - encoding
-      - supports-color
-      - utf-8-validate
-    dev: false
-
   /puppeteer-core@20.1.0(typescript@5.4.2):
     resolution: {integrity: sha512-/xTvabzAN4mnnuYkJCuWNnnEhOb3JrBTa3sY6qVi1wybuIEk5ODRg8Z5PPiKUGiKC9iG7GWOJ5CjF3iuMuxZSA==}
     engines: {node: '>=16.0.0'}
@@ -15927,24 +15479,6 @@ packages:
       puppeteer: 20.1.0(typescript@5.4.2)
     transitivePeerDependencies:
       - supports-color
-    dev: false
-
-  /puppeteer@20.1.0(typescript@5.3.3):
-    resolution: {integrity: sha512-kZp1eYScK1IpHxkgnDaFSGKKCzt27iZfsxO6Xlv/cklzYrhobxTK9/PxzCacPCrYnxNQwKwHzHLPOCuSyjw1jg==}
-    requiresBuild: true
-    dependencies:
-      '@puppeteer/browsers': 1.0.0(typescript@5.3.3)
-      cosmiconfig: 8.1.3
-      https-proxy-agent: 5.0.1
-      progress: 2.0.3
-      proxy-from-env: 1.1.0
-      puppeteer-core: 20.1.0(typescript@5.3.3)
-    transitivePeerDependencies:
-      - bufferutil
-      - encoding
-      - supports-color
-      - typescript
-      - utf-8-validate
     dev: false
 
   /puppeteer@20.1.0(typescript@5.4.2):
@@ -17545,6 +17079,7 @@ packages:
       sucrase: 3.32.0
     transitivePeerDependencies:
       - ts-node
+    dev: false
 
   /tailwindcss@3.4.3:
     resolution: {integrity: sha512-U7sxQk/n397Bmx4JHbJx/iSOOv5G+II3f1kpLpY2QeUv5DcPdcTsYLlusZfq1NthHS1c1cZoyFmmkex1rzke0A==}
@@ -17875,15 +17410,6 @@ packages:
       utf8-byte-length: 1.0.5
     dev: false
 
-  /ts-api-utils@1.2.1(typescript@5.3.3):
-    resolution: {integrity: sha512-RIYA36cJn2WiH9Hy77hdF9r7oEwxAtB/TS9/S4Qd90Ap4z5FSiin5zEiTL44OII1Y3IIlEvxwxFUVgrHSZ/UpA==}
-    engines: {node: '>=16'}
-    peerDependencies:
-      typescript: '>=4.2.0'
-    dependencies:
-      typescript: 5.3.3
-    dev: true
-
   /ts-api-utils@1.2.1(typescript@5.4.2):
     resolution: {integrity: sha512-RIYA36cJn2WiH9Hy77hdF9r7oEwxAtB/TS9/S4Qd90Ap4z5FSiin5zEiTL44OII1Y3IIlEvxwxFUVgrHSZ/UpA==}
     engines: {node: '>=16'}
@@ -18133,11 +17659,6 @@ packages:
   /typescript@4.9.5:
     resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
     engines: {node: '>=4.2.0'}
-    hasBin: true
-
-  /typescript@5.3.3:
-    resolution: {integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==}
-    engines: {node: '>=14.17'}
     hasBin: true
 
   /typescript@5.4.2:
