@@ -4,7 +4,3 @@
 [submodule "packages/fishpond-components"]
 	path = packages/fishpond-components
 	url = git@github.com:fishpond-pro/fishpond-components.git
-[submodule "fishpond-desktop4"]
-	path = fishpond-desktop4
-	url = git@github.com:fishpond-pro/fishpond-desktop4.git
- 
