@@ -25,7 +25,7 @@ const prePushHookTmp = `#!/bin/bash
 dayOfWeek=$(date +%u)  # 获取当前星期几，1代表星期一，7代表星期日
 hourOfDay=$(date +%H)  # 获取当前小时数
 
-if [[ $dayOfWeek -eq 6 || $hourOfDay -ge 23 ]]; then
+if [[ $dayOfWeek -eq 6 || $hourOfDay -ge 23 || $hourOfDay -lt 10 ]]; then
   echo "Yes we can"
   exit 0  # 允许推送
 else
@@ -34,12 +34,16 @@ else
 fi
 `
 
+const post = path.join(__dirname, '../.git/hooks/post-push')
+if (fs.existsSync(post)) {
+  fs.unlinkSync(post)
+}
 
 fs.writeFileSync(
-  path.join(__dirname, '../.git/hooks/post-push'),
+  path.join(__dirname, '../.git/hooks/pre-push'),
   prePushHookTmp,
 )
-fs.chmodSync(path.join(__dirname, '../.git/hooks/post-push'), '755');
+fs.chmodSync(path.join(__dirname, '../.git/hooks/pre-push'), '755');
 
 
 fs.readdirSync(packagesDir).map(f => {
