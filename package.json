@@ -17,6 +17,6 @@
   "homepage": "https://github.com/fishpond-pro/fishpond-desktop-workspace#readme",
   "volta": {
     "node": "20.11.1",
-    "pnpm": "8.15.9"
+    "pnpm": "9.15.1"
   }
 }
