@@ -32,8 +32,8 @@ importers:
         specifier: workspace:^
         version: link:../polymita-runtime/packages/renderer
       '@prisma/client':
-        specifier: ^5.10.2
-        version: 5.10.2(prisma@5.10.2)
+        specifier: ^5.12.0
+        version: 5.22.0(prisma@5.22.0)
       chalk:
         specifier: ^4.1.2
         version: 4.1.2
@@ -47,8 +47,8 @@ importers:
         specifier: 14.1.0
         version: 14.1.0(@babel/core@7.25.2)(@opentelemetry/api@1.4.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       prisma:
-        specifier: ^5.10.2
-        version: 5.10.2
+        specifier: ^5.12.0
+        version: 5.22.0
       react:
         specifier: ^18
         version: 18.2.0
@@ -111,8 +111,8 @@ importers:
         specifier: workspace:^
         version: link:../../../polymita-runtime/packages/signal-model
       '@prisma/client':
-        specifier: ^5.10.2
-        version: 5.10.2(prisma@5.10.2)
+        specifier: ^5.12.0
+        version: 5.22.0(prisma@5.22.0)
       cross-env:
         specifier: ^7.0.3
         version: 7.0.3
@@ -129,8 +129,8 @@ importers:
         specifier: 14.1.0
         version: 14.1.0(@babel/core@7.25.2)(@opentelemetry/api@1.4.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       prisma:
-        specifier: ^5.10.2
-        version: 5.10.2
+        specifier: ^5.12.0
+        version: 5.22.0
       react:
         specifier: ^18
         version: 18.2.0
@@ -193,8 +193,8 @@ importers:
         specifier: workspace:^
         version: link:../../../polymita-runtime/packages/signal-model
       '@prisma/client':
-        specifier: ^5.10.2
-        version: 5.10.2(prisma@5.10.2)
+        specifier: ^5.12.0
+        version: 5.22.0(prisma@5.22.0)
       cross-env:
         specifier: ^7.0.3
         version: 7.0.3
@@ -211,8 +211,8 @@ importers:
         specifier: 14.1.0
         version: 14.1.0(@babel/core@7.25.2)(@opentelemetry/api@1.4.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       prisma:
-        specifier: ^5.10.2
-        version: 5.10.2
+        specifier: ^5.12.0
+        version: 5.22.0
       react:
         specifier: ^18
         version: 18.2.0
@@ -274,6 +274,9 @@ importers:
       '@polymita/renderer':
         specifier: workspace:^
         version: link:../../../polymita-runtime/packages/renderer
+      '@polymita/rss-sources':
+        specifier: workspace:^
+        version: link:../rss-sources
       '@polymita/rss-sources-add':
         specifier: workspace:^
         version: link:../rss-sources-add
@@ -284,8 +287,8 @@ importers:
         specifier: workspace:^
         version: link:../../../polymita-runtime/packages/signal-model
       '@prisma/client':
-        specifier: ^5.10.2
-        version: 5.10.2(prisma@5.10.2)
+        specifier: ^5.12.0
+        version: 5.22.0(prisma@5.22.0)
       date-fns:
         specifier: ^2.29.3
         version: 2.30.0
@@ -296,8 +299,8 @@ importers:
         specifier: 14.1.0
         version: 14.1.0(@babel/core@7.25.2)(@opentelemetry/api@1.4.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       prisma:
-        specifier: ^5.10.2
-        version: 5.10.2
+        specifier: ^5.12.0
+        version: 5.22.0
       react:
         specifier: ^18
         version: 18.2.0
@@ -363,8 +366,8 @@ importers:
         specifier: workspace:^
         version: link:../../../polymita-runtime/packages/signal-model
       '@prisma/client':
-        specifier: ^5.10.2
-        version: 5.10.2(prisma@5.10.2)
+        specifier: ^5.12.0
+        version: 5.22.0(prisma@5.22.0)
       cross-env:
         specifier: ^7.0.3
         version: 7.0.3
@@ -381,8 +384,8 @@ importers:
         specifier: 14.1.0
         version: 14.1.0(@babel/core@7.25.2)(@opentelemetry/api@1.4.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       prisma:
-        specifier: ^5.10.2
-        version: 5.10.2
+        specifier: ^5.12.0
+        version: 5.22.0
       react:
         specifier: ^18
         version: 18.2.0
@@ -445,11 +448,11 @@ importers:
         specifier: workspace:^
         version: link:../third-rsshub
       '@prisma/client':
-        specifier: ^5.10.2
-        version: 5.10.2(prisma@5.10.2)
+        specifier: ^5.12.0
+        version: 5.22.0(prisma@5.22.0)
       prisma:
-        specifier: ^5.10.2
-        version: 5.10.2
+        specifier: ^5.12.0
+        version: 5.22.0
     devDependencies:
       '@types/node':
         specifier: ^20
@@ -518,8 +521,8 @@ importers:
         specifier: workspace:^
         version: link:../rss-sources-add
       '@prisma/client':
-        specifier: ^5.10.2
-        version: 5.10.2(prisma@5.10.2)
+        specifier: ^5.12.0
+        version: 5.22.0(prisma@5.22.0)
       '@sentry/node':
         specifier: 7.50.0
         version: 7.50.0
@@ -668,8 +671,8 @@ importers:
         specifier: 3.0.6
         version: 3.0.6
       prisma:
-        specifier: ^5.10.2
-        version: 5.10.2
+        specifier: ^5.12.0
+        version: 5.22.0
       proxy-chain:
         specifier: 2.3.0
         version: 2.3.0
@@ -783,8 +786,8 @@ importers:
         specifier: workspace:^
         version: link:../../../polymita-runtime/packages/renderer
       '@prisma/client':
-        specifier: ^5.10.2
-        version: 5.10.2(prisma@5.10.2)
+        specifier: ^5.12.0
+        version: 5.22.0(prisma@5.22.0)
     devDependencies:
       '@types/node':
         specifier: ^20
@@ -841,8 +844,8 @@ importers:
         specifier: workspace:^
         version: link:../rss-query2
       '@prisma/client':
-        specifier: ^5.10.2
-        version: 5.10.2(prisma@5.10.2)
+        specifier: ^5.12.0
+        version: 5.22.0(prisma@5.22.0)
       ahooks:
         specifier: ^3.8.4
         version: 3.8.4(react@18.2.0)
@@ -856,8 +859,8 @@ importers:
         specifier: 14.1.0
         version: 14.1.0(@babel/core@7.25.2)(@opentelemetry/api@1.4.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       prisma:
-        specifier: ^5.10.2
-        version: 5.10.2
+        specifier: ^5.12.0
+        version: 5.22.0
       react:
         specifier: ^18
         version: 18.2.0
@@ -935,8 +938,8 @@ importers:
         specifier: workspace:^
         version: link:../third-rsshub
       '@prisma/client':
-        specifier: ^5.10.2
-        version: 5.10.2(prisma@5.10.2)
+        specifier: ^5.12.0
+        version: 5.22.0(prisma@5.22.0)
       date-fns:
         specifier: ^2.29.3
         version: 2.30.0
@@ -944,8 +947,8 @@ importers:
         specifier: ^4.4.0
         version: 4.4.0
       prisma:
-        specifier: ^5.10.2
-        version: 5.10.2
+        specifier: ^5.12.0
+        version: 5.22.0
       react:
         specifier: ^18
         version: 18.2.0
@@ -999,8 +1002,8 @@ importers:
         specifier: workspace:^
         version: link:../../../polymita-runtime/packages/renderer
       '@prisma/client':
-        specifier: ^5.10.2
-        version: 5.10.2(prisma@5.10.2)
+        specifier: ^5.12.0
+        version: 5.22.0(prisma@5.22.0)
       '@sentry/node':
         specifier: 7.50.0
         version: 7.50.0
@@ -1231,8 +1234,8 @@ importers:
         specifier: workspace:^
         version: link:../polymita-runtime/packages/signal-model
       '@prisma/client':
-        specifier: ^5.10.2
-        version: 5.10.2(prisma@5.10.2)
+        specifier: ^5.12.0
+        version: 5.22.0(prisma@5.22.0)
       cross-env:
         specifier: ^7.0.3
         version: 7.0.3
@@ -1246,8 +1249,8 @@ importers:
         specifier: 14.1.0
         version: 14.1.0(@babel/core@7.25.2)(@opentelemetry/api@1.4.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       prisma:
-        specifier: ^5.10.2
-        version: 5.10.2
+        specifier: ^5.12.0
+        version: 5.22.0
       react:
         specifier: 18.2.0
         version: 18.2.0
@@ -1636,7 +1639,7 @@ importers:
         version: 6.1.0
       '@prisma/client':
         specifier: ^3.15.1
-        version: 3.15.2(prisma@5.10.2)
+        version: 3.15.2(prisma@5.22.0)
       '@rollup/plugin-node-resolve':
         specifier: ^13.3.0
         version: 13.3.0(rollup@2.79.1)
@@ -3111,8 +3114,8 @@ packages:
       prisma:
         optional: true
 
-  '@prisma/client@5.10.2':
-    resolution: {integrity: sha512-ef49hzB2yJZCvM5gFHMxSFL9KYrIP9udpT5rYo0CsHD4P9IKj473MbhU1gjKKftiwWBTIyrt9jukprzZXazyag==}
+  '@prisma/client@5.22.0':
+    resolution: {integrity: sha512-M0SVXfyHnQREBKxCgyo7sffrKttwE6R8PMq330MIUF0pTwjUhLbW84pFDlf06B27XyCR++VtjugEnIHdr07SVA==}
     engines: {node: '>=16.13'}
     peerDependencies:
       prisma: '*'
@@ -3123,26 +3126,26 @@ packages:
   '@prisma/debug@4.15.0':
     resolution: {integrity: sha512-dkbPz+gOVlWDBAaOEseSpAUz9NppT38UlwdryPyrwct6OClLirNC7wH+TpAQk5OZp9x59hNnfDz+T7XvL1v0/Q==}
 
-  '@prisma/debug@5.10.2':
-    resolution: {integrity: sha512-bkBOmH9dpEBbMKFJj8V+Zp8IZHIBjy3fSyhLhxj4FmKGb/UBSt9doyfA6k1UeUREsMJft7xgPYBbHSOYBr8XCA==}
+  '@prisma/debug@5.22.0':
+    resolution: {integrity: sha512-AUt44v3YJeggO2ZU5BkXI7M4hu9BF2zzH2iF2V5pyXT/lRTyWiElZ7It+bRH1EshoMRxHgpYg4VB6rCM+mG5jQ==}
 
   '@prisma/engines-version@3.15.1-1.461d6a05159055555eb7dfb337c9fb271cbd4d7e':
     resolution: {integrity: sha512-e3k2Vd606efd1ZYy2NQKkT4C/pn31nehyLhVug6To/q8JT8FpiMrDy7zmm3KLF0L98NOQQcutaVtAPhzKhzn9w==}
 
-  '@prisma/engines-version@5.10.0-34.5a9203d0590c951969e85a7d07215503f4672eb9':
-    resolution: {integrity: sha512-uCy/++3Jx/O3ufM+qv2H1L4tOemTNqcP/gyEVOlZqTpBvYJUe0tWtW0y3o2Ueq04mll4aM5X3f6ugQftOSLdFQ==}
+  '@prisma/engines-version@5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2':
+    resolution: {integrity: sha512-2PTmxFR2yHW/eB3uqWtcgRcgAbG1rwG9ZriSvQw+nnb7c4uCr3RAcGMb6/zfE88SKlC1Nj2ziUvc96Z379mHgQ==}
 
   '@prisma/engines@4.15.0':
     resolution: {integrity: sha512-FTaOCGs0LL0OW68juZlGxFtYviZa4xdQj/rQEdat2txw0s3Vu/saAPKjNVXfIgUsGXmQ72HPgNr6935/P8FNAA==}
 
-  '@prisma/engines@5.10.2':
-    resolution: {integrity: sha512-HkSJvix6PW8YqEEt3zHfCYYJY69CXsNdhU+wna+4Y7EZ+AwzeupMnUThmvaDA7uqswiHkgm5/SZ6/4CStjaGmw==}
+  '@prisma/engines@5.22.0':
+    resolution: {integrity: sha512-UNjfslWhAt06kVL3CjkuYpHAWSO6L4kDCVPegV6itt7nD1kSJavd3vhgAEhjglLJJKEdJ7oIqDJ+yHk6qO8gPA==}
 
   '@prisma/fetch-engine@4.15.0':
     resolution: {integrity: sha512-J5HVpRpLxsw9iDLcwwwxL09DXhERnutMiSwyfgHwCQhTHcETc5++XGZlHZtG4toykO3tploCDynXhJc6Fe/u2A==}
 
-  '@prisma/fetch-engine@5.10.2':
-    resolution: {integrity: sha512-dSmXcqSt6DpTmMaLQ9K8ZKzVAMH3qwGCmYEZr/uVnzVhxRJ1EbT/w2MMwIdBNq1zT69Rvh0h75WMIi0mrIw7Hg==}
+  '@prisma/fetch-engine@5.22.0':
+    resolution: {integrity: sha512-bkrD/Mc2fSvkQBV5EpoFcZ87AvOgDxbG99488a5cexp5Ccny+UM6MAe/UFkUC0wLYD9+9befNOqGiIJhhq+HbA==}
 
   '@prisma/generator-helper@4.15.0':
     resolution: {integrity: sha512-JVHNgXr0LrcqXqmFrs+BzxfyRL6cFD5GLTMVWfCLU7kqSJdWuZxfoZW995tg6mOXnBgPTf6Ocv3RY4RLQq8k4g==}
@@ -3150,8 +3153,8 @@ packages:
   '@prisma/get-platform@4.15.0':
     resolution: {integrity: sha512-A7EdfysFDTL6HQmyZ6CLyNGRDz/60shqiJuhQ952cS0irGhi4PhTCy5MbjCvUaXjRBR6cjPp9EDaZ47TZlw5hg==}
 
-  '@prisma/get-platform@5.10.2':
-    resolution: {integrity: sha512-nqXP6vHiY2PIsebBAuDeWiUYg8h8mfjBckHh6Jezuwej0QJNnjDiOq30uesmg+JXxGk99nqyG3B7wpcOODzXvg==}
+  '@prisma/get-platform@5.22.0':
+    resolution: {integrity: sha512-pHhpQdr1UPFpt+zFfnPazhulaZYCUqeIcPpJViYoq9R+D/yw4fjE+CtnsnKzPYm0ddUbeXUzjGVGIRVgPDCk4Q==}
 
   '@prisma/internals@4.15.0':
     resolution: {integrity: sha512-bmgn1GX74RfjBRVMV4oJknZJOHmXcO9lh0VbwWKXp1zXvjumQCGeBOmLdzkp4SnvIrpkpXQf9JGbmOTKpVsvRw==}
@@ -7662,8 +7665,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  prisma@5.10.2:
-    resolution: {integrity: sha512-hqb/JMz9/kymRE25pMWCxkdyhbnIWrq+h7S6WysJpdnCvhstbJSNP/S6mScEcqiB8Qv2F+0R3yG+osRaWqZacQ==}
+  prisma@5.22.0:
+    resolution: {integrity: sha512-vtpjW3XuYCSnMsNVBjLMNkTj6OZbudcPPTPYHqX0CJfpcdWciI1dM8uHETwmDxxiqEwCIE6WvXucWUetJgfu/A==}
     engines: {node: '>=16.13'}
     hasBin: true
 
@@ -10879,15 +10882,15 @@ snapshots:
     optionalDependencies:
       prisma: 4.15.0
 
-  '@prisma/client@3.15.2(prisma@5.10.2)':
+  '@prisma/client@3.15.2(prisma@5.22.0)':
     dependencies:
       '@prisma/engines-version': 3.15.1-1.461d6a05159055555eb7dfb337c9fb271cbd4d7e
     optionalDependencies:
-      prisma: 5.10.2
+      prisma: 5.22.0
 
-  '@prisma/client@5.10.2(prisma@5.10.2)':
+  '@prisma/client@5.22.0(prisma@5.22.0)':
     optionalDependencies:
-      prisma: 5.10.2
+      prisma: 5.22.0
 
   '@prisma/debug@4.15.0':
     dependencies:
@@ -10897,20 +10900,20 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@prisma/debug@5.10.2': {}
+  '@prisma/debug@5.22.0': {}
 
   '@prisma/engines-version@3.15.1-1.461d6a05159055555eb7dfb337c9fb271cbd4d7e': {}
 
-  '@prisma/engines-version@5.10.0-34.5a9203d0590c951969e85a7d07215503f4672eb9': {}
+  '@prisma/engines-version@5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2': {}
 
   '@prisma/engines@4.15.0': {}
 
-  '@prisma/engines@5.10.2':
+  '@prisma/engines@5.22.0':
     dependencies:
-      '@prisma/debug': 5.10.2
-      '@prisma/engines-version': 5.10.0-34.5a9203d0590c951969e85a7d07215503f4672eb9
-      '@prisma/fetch-engine': 5.10.2
-      '@prisma/get-platform': 5.10.2
+      '@prisma/debug': 5.22.0
+      '@prisma/engines-version': 5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2
+      '@prisma/fetch-engine': 5.22.0
+      '@prisma/get-platform': 5.22.0
 
   '@prisma/fetch-engine@4.15.0(encoding@0.1.13)':
     dependencies:
@@ -10935,11 +10938,11 @@ snapshots:
       - encoding
       - supports-color
 
-  '@prisma/fetch-engine@5.10.2':
+  '@prisma/fetch-engine@5.22.0':
     dependencies:
-      '@prisma/debug': 5.10.2
-      '@prisma/engines-version': 5.10.0-34.5a9203d0590c951969e85a7d07215503f4672eb9
-      '@prisma/get-platform': 5.10.2
+      '@prisma/debug': 5.22.0
+      '@prisma/engines-version': 5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2
+      '@prisma/get-platform': 5.22.0
 
   '@prisma/generator-helper@4.15.0':
     dependencies:
@@ -10965,9 +10968,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@prisma/get-platform@5.10.2':
+  '@prisma/get-platform@5.22.0':
     dependencies:
-      '@prisma/debug': 5.10.2
+      '@prisma/debug': 5.22.0
 
   '@prisma/internals@4.15.0(encoding@0.1.13)':
     dependencies:
@@ -13649,7 +13652,7 @@ snapshots:
       eslint: 8.57.0
       eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.6.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint@8.57.0)
-      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0)
+      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint@8.57.0))(eslint@8.57.0)
       eslint-plugin-jsx-a11y: 6.8.0(eslint@8.57.0)
       eslint-plugin-react: 7.34.0(eslint@8.57.0)
       eslint-plugin-react-hooks: 4.6.0(eslint@8.57.0)
@@ -13683,8 +13686,8 @@ snapshots:
       debug: 4.3.6
       enhanced-resolve: 5.17.1
       eslint: 8.57.0
-      eslint-module-utils: 2.8.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0)
-      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0)
+      eslint-module-utils: 2.8.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint@8.57.0))(eslint@8.57.0)
+      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint@8.57.0))(eslint@8.57.0)
       fast-glob: 3.3.2
       get-tsconfig: 4.7.3
       is-core-module: 2.13.1
@@ -13695,7 +13698,7 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-module-utils@2.8.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0):
+  eslint-module-utils@2.8.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint@8.57.0))(eslint@8.57.0):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
@@ -13706,7 +13709,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-import@2.29.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0):
+  eslint-plugin-import@2.29.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint@8.57.0))(eslint@8.57.0):
     dependencies:
       array-includes: 3.1.7
       array.prototype.findlastindex: 1.2.4
@@ -13716,7 +13719,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 8.57.0
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.8.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0)
+      eslint-module-utils: 2.8.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint@8.57.0))(eslint@8.57.0)
       hasown: 2.0.1
       is-core-module: 2.13.1
       is-glob: 4.0.3
@@ -16665,9 +16668,11 @@ snapshots:
     dependencies:
       '@prisma/engines': 4.15.0
 
-  prisma@5.10.2:
+  prisma@5.22.0:
     dependencies:
-      '@prisma/engines': 5.10.2
+      '@prisma/engines': 5.22.0
+    optionalDependencies:
+      fsevents: 2.3.3
 
   process-nextick-args@2.0.1: {}
 
